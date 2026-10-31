@@ -1,0 +1,23 @@
+omnigo_starter/
+├── README.md
+├── .gitignore
+├── .github/
+│   └── workflows/
+│       └── ci.yml
+├── apps/
+│   └── omnigo/
+│       ├── pubspec.yaml
+│       ├── lib/
+│       │   └── main.dart
+│       └── test/
+│           └── widget_test.dart
+└── services/
+    └── api/
+        ├── package.json
+        ├── .env.example
+        ├── src/
+        │   ├── server.js
+        │   └── payments/
+        │       └── payment-gateway.js
+        └── db/
+            └── schema.sql
